@@ -52,18 +52,18 @@ public class SimpleBankingSystem {
 
 		BankAccount bk = new BankAccount();
 		Scanner scan = new Scanner(System.in);
-//		System.out.println("******************************");
-//		System.out.println("Welcome to Banking Application");
-//		System.out.println("******************************");
-//		System.out.println("Create Account");
-//		System.out.print("Enter your name:");
-//		String name = scan.nextLine();
-//		System.out.print("Enter your age: ");
-//		int age = scan.nextInt();
-//		scan.nextLine();
-//		System.out.print("Enter your ph.No:");
-//		String phoneNumber = scan.nextLine();
-//		Customer nc = new Customer(age, phoneNumber, name);
+		System.out.println("******************************");
+		System.out.println("Welcome to Banking Application");
+		System.out.println("******************************");
+		System.out.println("Create Account");
+		System.out.print("Enter your name:");
+		String name = scan.nextLine();
+		System.out.print("Enter your age: ");
+		int age = scan.nextInt();
+		scan.nextLine();
+		System.out.print("Enter your ph.No:");
+		String phoneNumber = scan.nextLine();
+		Customer nc = new Customer(age, phoneNumber, name);
 		boolean flag=true;
 
 		while (flag) {
