@@ -1,4 +1,4 @@
-package HexSecondProject;
+package HexLevel1;
 import java.util.*;
 
 class Student{

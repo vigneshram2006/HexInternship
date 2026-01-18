@@ -1,4 +1,4 @@
-package HexFirstProject;
+package HexLevel1;
 
 import java.util.*;
 
